@@ -1,0 +1,18 @@
+Spaventacorvi Glam Glitter Shaders v1.0.1
+
+# Features
+- Added a sample material
+
+# Bug fixes
+- Fixed a bug that prevent lightmap baking of other objects in the scene.
+- Standard Assets folders have been moved under GGS folder to include them in the package.
+
+# Documentation
+- Some translation corrections.
+- Added links and some image.
+
+
+
+Spaventacorvi Glam Glitter Shaders v1.0
+
+- First release

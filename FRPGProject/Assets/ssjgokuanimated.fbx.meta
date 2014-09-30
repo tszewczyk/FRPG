@@ -718,6 +718,7 @@ ModelImporter:
     2300184: WGT-VIS-thigh_pole.ik.R
     2300186: WGT-VIS-upper_arm_pole.ik.L
     2300188: WGT-VIS-upper_arm_pole.ik.R
+    2300190: goku
     3300000: WGT-chest
     3300002: WGT-elbow_hose.L
     3300004: WGT-elbow_hose.R
@@ -813,6 +814,7 @@ ModelImporter:
     3300184: WGT-VIS-thigh_pole.ik.R
     3300186: WGT-VIS-upper_arm_pole.ik.L
     3300188: WGT-VIS-upper_arm_pole.ik.R
+    3300190: goku
     4300190: goku
     7400000: rig|Idlefight
     7400002: rig|Idle
@@ -820,6 +822,7 @@ ModelImporter:
     7400006: rig|Run
     7400008: rig|walk
     9500000: //RootNode
+    11100000: //RootNode
     13700000: goku
   materials:
     importMaterials: 1
@@ -830,7 +833,7 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -841,7 +844,7 @@ ModelImporter:
       name: rig|Idlefight
       takeName: rig|Idlefight
       firstFrame: 0
-      lastFrame: 36
+      lastFrame: 35
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1493,8 +1496,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -3425,14 +3428,14 @@ ModelImporter:
       name: rig|walk
       takeName: rig|walk
       firstFrame: 0
-      lastFrame: 35
+      lastFrame: 34
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

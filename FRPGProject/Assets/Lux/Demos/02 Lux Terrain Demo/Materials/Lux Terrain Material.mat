@@ -1,0 +1,410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Lux Terrain Material
+  m_Shader: {fileID: 4800000, guid: caca80ddf7d77410880d9d451215c8b1, type: 3}
+  m_ShaderKeywords:
+  - DIFFCUBE_ON
+  - SPECCUBE_ON
+  - LUX_AO_OFF
+  - COLORMAP_OFF
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Control
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TerrainNormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e25a4b33e3935d64ba4e90b135377194, type: 3}
+          m_Scale: {x: 100, y: 100}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat0
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal0
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 2800000, guid: a521577f8292a4777924b55397a118ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e25a4b33e3935d64ba4e90b135377194, type: 3}
+          m_Scale: {x: 100, y: 100}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BaseTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .350782961
+      data:
+        first:
+          name: _FresnelStrength
+        second: 0
+      data:
+        first:
+          name: _BasemapDistance
+        second: 500
+      data:
+        first:
+          name: _FadeLength
+        second: 50
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVs0
+        second: 40
+      data:
+        first:
+          name: _UVs1
+        second: 133
+      data:
+        first:
+          name: _UVs2
+        second: 50
+      data:
+        first:
+          name: _UVs3
+        second: 50
+      data:
+        first:
+          name: _SpecInt
+        second: 1
+      data:
+        first:
+          name: _DetailWeight
+        second: 1
+      data:
+        first:
+          name: _FadeNear
+        second: 100
+      data:
+        first:
+          name: _FadeRange
+        second: 50
+      data:
+        first:
+          name: _SpecInt0
+        second: 1
+      data:
+        first:
+          name: _SpecInt1
+        second: 1
+      data:
+        first:
+          name: _SpecInt2
+        second: 1
+      data:
+        first:
+          name: _SpecInt3
+        second: 1
+      data:
+        first:
+          name: _Gloss0
+        second: 1
+      data:
+        first:
+          name: _Gloss1
+        second: 1
+      data:
+        first:
+          name: _Gloss2
+        second: 1
+      data:
+        first:
+          name: _Gloss3
+        second: 1
+      data:
+        first:
+          name: _SpecFresnel
+        second: 0
+      data:
+        first:
+          name: _DiffFresnel
+        second: 0
+      data:
+        first:
+          name: _Fresnel0
+        second: .803571403
+      data:
+        first:
+          name: _Fresnel1
+        second: .571428597
+      data:
+        first:
+          name: _Fresnel2
+        second: .446428567
+      data:
+        first:
+          name: _Fresnel3
+        second: .678571403
+      data:
+        first:
+          name: _Fresnel4
+        second: .553571403
+      data:
+        first:
+          name: _Fresnel5
+        second: 0
+      data:
+        first:
+          name: _Fresnel6
+        second: 0
+      data:
+        first:
+          name: _Fresnel7
+        second: 1
+      data:
+        first:
+          name: _FadeLenght
+        second: 400
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ColTex5
+        second: {r: .352941185, g: .325490206, b: .278431386, a: 1}
+      data:
+        first:
+          name: _SpecTex5
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _ColTex6
+        second: {r: .219607845, g: .176470593, b: .121568628, a: 1}
+      data:
+        first:
+          name: _SpecTex6
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _ColTex7
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecTex7
+        second: {r: .0955882072, g: .0955882072, b: .0955882072, a: 1}
+      data:
+        first:
+          name: _ColTex8
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecTex8
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _UVs4
+        second: {r: 66.6666641, g: 66.6666641, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs5
+        second: {r: 100, g: 100, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs6
+        second: {r: 23, g: 25, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs7
+        second: {r: 100, g: 100, b: 0, a: 0}
+      data:
+        first:
+          name: _ColTex1
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecTex1
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColTex2
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecTex2
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColTex3
+        second: {r: .396078438, g: .372549027, b: .329411775, a: 1}
+      data:
+        first:
+          name: _SpecTex3
+        second: {r: .227450982, g: .227450982, b: .227450982, a: 1}
+      data:
+        first:
+          name: _ColTex4
+        second: {r: .360784322, g: .34117648, b: .313725501, a: 1}
+      data:
+        first:
+          name: _SpecTex4
+        second: {r: .477941155, g: .477941155, b: .477941155, a: 1}
+      data:
+        first:
+          name: _UVs0
+        second: {r: 166.666672, g: 166.666672, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs1
+        second: {r: 166.666672, g: 166.666672, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs2
+        second: {r: 125, g: 125, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs3
+        second: {r: 66.6666641, g: 66.6666641, b: 0, a: 0}
+      data:
+        first:
+          name: _Tiling0
+        second: {r: 50, g: 50, b: 0, a: 0}
+      data:
+        first:
+          name: _Tiling1
+        second: {r: 100, g: 100, b: 0, a: 0}
+      data:
+        first:
+          name: _Tiling2
+        second: {r: 100, g: 100, b: 0, a: 0}
+      data:
+        first:
+          name: _Tiling3
+        second: {r: 100, g: 100, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .345588207, g: .345588207, b: .345588207, a: 1}
+      data:
+        first:
+          name: _Lux_MainLightDir
+        second: {r: .0124973496, g: -.538770974, b: -.842359722, a: 0}

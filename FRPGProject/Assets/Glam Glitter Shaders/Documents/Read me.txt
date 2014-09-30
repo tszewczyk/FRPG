@@ -1,0 +1,4 @@
+The Standard Assets folder contain just the standard asset for Image Effects and Character Controller.
+They are used by the sample scene only.
+I must put them there to include it in the package but you can move out from GGS folder.
+If you don't need it you can delete it.

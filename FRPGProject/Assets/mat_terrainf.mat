@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mat_terrainf
+  m_Shader: {fileID: 10620, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords:
+  - DIFFCUBE_OFF
+  - SPECCUBE_OFF
+  - LUX_AO_OFF
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1d9997d02374f8d4b8f10a16b795e8b9, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Control
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 43fa4a8a88734d348a8c5436bb02d261, type: 3}
+          m_Scale: {x: 2000, y: 2000}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 679a5de048238cb438313634f43e074c, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TerrainNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 100, y: 100}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat0
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal0
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractTex
+        second:
+          m_Texture: {fileID: 8900000, guid: b995d4bd9d11078d11005b9844295342, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTex
+        second:
+          m_Texture: {fileID: 8900000, guid: 34ad3ef734f884a46972f448cbed41bb, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaMask
+        second:
+          m_Texture: {fileID: 2800000, guid: 679a5de048238cb438313634f43e074c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 25793ebbbd111a7011005aba44295342, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e25a4b33e3935d64ba4e90b135377194, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: beb8b815579a946c093cb8dd0f879ed1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c7b07ff8b2e538442a86d710e335a242, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e25a4b33e3935d64ba4e90b135377194, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 2800000, guid: 33bd9717b92a642e986ed843357e3254, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflectioncubemap
+        second:
+          m_Texture: {fileID: 8900000, guid: 34ad3ef734f884a46972f448cbed41bb, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normalmap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4786597ecc562834d9817f5af25e4a78, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specularglitter
+        second:
+          m_Texture: {fileID: 2800000, guid: f084becfb31439842be0b4764a8911d8, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Glittermap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4f9dffd809771ca40800f6febe15787d, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorControlCube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorControl
+        second:
+          m_Texture: {fileID: 2800000, guid: 679a5de048238cb438313634f43e074c, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 83cf16d2a009c674da62d283643ca2de, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: 83cf16d2a009c674da62d283643ca2de, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _FresnelStrength
+        second: .839285731
+      data:
+        first:
+          name: _BasemapDistance
+        second: 832
+      data:
+        first:
+          name: _FadeLength
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0799999982
+      data:
+        first:
+          name: _EdgeLength
+        second: 10
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 100
+      data:
+        first:
+          name: _Blur
+        second: .5
+      data:
+        first:
+          name: _RimPower
+        second: 100
+      data:
+        first:
+          name: _FresIn
+        second: .322107136
+      data:
+        first:
+          name: _FresOut
+        second: .25
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+      data:
+        first:
+          name: _InvFade
+        second: .679642856
+      data:
+        first:
+          name: _Fakelight
+        second: .00714285765
+      data:
+        first:
+          name: _Reflectioncubemappower
+        second: 0
+      data:
+        first:
+          name: _Specularpower05
+        second: 5
+      data:
+        first:
+          name: _Specularcontrast13
+        second: 2.07142854
+      data:
+        first:
+          name: _Glitterpower
+        second: 10
+      data:
+        first:
+          name: _Glittercontrast13
+        second: 1.57142854
+      data:
+        first:
+          name: _Glitteryspeed01
+        second: .124999993
+      data:
+        first:
+          name: _Glitterymaskdotsscale
+        second: 2.49821448
+      data:
+        first:
+          name: _MasktransparencyDebug
+        second: 1
+      data:
+        first:
+          name: _Maskadjust0515
+        second: 1.375
+      data:
+        first:
+          name: _WaveScale
+        second: .150000006
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .242647052, g: .215946019, b: .187337801, a: 0}
+      data:
+        first:
+          name: _ColTex5
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecTex5
+        second: {r: .184313729, g: .184313729, b: .184313729, a: 1}
+      data:
+        first:
+          name: _ColTex6
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecTex6
+        second: {r: .129411772, g: .129411772, b: .129411772, a: 1}
+      data:
+        first:
+          name: _ColTex7
+        second: {r: .643137276, g: .643137276, b: .643137276, a: 1}
+      data:
+        first:
+          name: _SpecTex7
+        second: {r: .811764717, g: .811764717, b: .811764717, a: 1}
+      data:
+        first:
+          name: _ColTex8
+        second: {r: .760784328, g: .760784328, b: .760784328, a: 1}
+      data:
+        first:
+          name: _SpecTex8
+        second: {r: .729411781, g: .729411781, b: .729411781, a: 1}
+      data:
+        first:
+          name: _UVs4
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs5
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs6
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs7
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ColTex1
+        second: {r: .904411793, g: .904411793, b: .904411793, a: 1}
+      data:
+        first:
+          name: _SpecTex1
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColTex2
+        second: {r: .448529422, g: .313311011, b: .313311011, a: 1}
+      data:
+        first:
+          name: _SpecTex2
+        second: {r: .279411793, g: .133542389, b: .133542389, a: 1}
+      data:
+        first:
+          name: _ColTex3
+        second: {r: .352941155, g: .0804498121, b: .0804498121, a: 1}
+      data:
+        first:
+          name: _SpecTex3
+        second: {r: .433823526, g: .433823526, b: .433823526, a: 1}
+      data:
+        first:
+          name: _ColTex4
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecTex4
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _UVs0
+        second: {r: 6.66666651, g: 6.66666651, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs1
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs2
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _UVs3
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _MainTint
+        second: {r: 1, g: 1, b: 1, a: .501960814}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .501960814}
+      data:
+        first:
+          name: _Glittercolor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _horizonColor
+        second: {r: 1, g: .909634888, b: .404411793, a: 0}
+      data:
+        first:
+          name: WaveSpeed
+        second: {r: 0, g: 0, b: 0, a: 0}
